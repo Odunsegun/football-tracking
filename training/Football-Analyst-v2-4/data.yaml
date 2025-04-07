@@ -1,0 +1,15 @@
+names:
+- ball
+- goalkeeper
+- player
+- referee
+nc: 4
+roboflow:
+  license: CC BY 4.0
+  project: football-analyst-v2
+  url: https://universe.roboflow.com/football-analyst/football-analyst-v2/dataset/4
+  version: 4
+  workspace: football-analyst
+test: ../test/images
+train: Football-Analyst-v2-4/train/images
+val: Football-Analyst-v2-4/valid/images
