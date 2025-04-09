@@ -5,7 +5,20 @@ This project is a Computer Vision pipeline that processes football (soccer) matc
 Result of the video project is placed in **output_videos**. Shows the training and how I used it
 
 ## Folder Structure
-project/ │ ├── input_videos/ # Place the raw football video here (e.g., Spain_vs_France_2024.mp4) ├── output_videos/ # The output annotated video will be saved here (e.g., output_video.avi) ├── stubs/ # Cached data such as tracked objects and camera motion (saves time) ├── models/ # Trained YOLOv8 model weights (best.pt) ├── team_assigner/ # Handles team classification using color clustering ├── trackers/ # Core detection & tracking logic ├── utils/ # Utility functions (video IO, bbox ops, math) │ ├── bbox_utils.py │ └── video_utils.py ├── main.py # Main entrypoint to run the pipeline ├── requirements.txt # Required Python packages └── README.md # Here
+project/ 
+│ 
+├── input_videos/ # Place the raw football video here (e.g., Spain_vs_France_2024.mp4) 
+├── output_videos/ # The output annotated video will be saved here (e.g., output_video.avi) 
+├── stubs/ # Cached data such as tracked objects and camera motion (saves time) 
+├── models/ # Trained YOLOv8 model weights (best.pt) 
+├── team_assigner/ # Handles team classification using color clustering 
+├── trackers/ # Core detection & tracking logic 
+├── utils/ # Utility functions (video IO, bbox ops, math) 
+  ├── bbox_utils.py 
+  └── video_utils.py 
+├── main.py # Main entrypoint to run the pipeline 
+├── requirements.txt # Required Python packages 
+└── README.md # Here
 
 
 ## ▶️ How to Run
